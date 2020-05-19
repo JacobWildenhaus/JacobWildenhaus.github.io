@@ -4,7 +4,7 @@ h1{
   color: black;
   padding: 50px;
   font-size: 325%;
-  background-image:url(https://docplayer.net/docs-images/63/48906955/images/3-0.jpg);
+  background-image:url(Images/banner.jpg);
   -webkit-text-stroke: 1px lightgrey;
 }
 h1 span::before{
