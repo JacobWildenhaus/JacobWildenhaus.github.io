@@ -1,0 +1,66 @@
+
+h1{
+  text-align: center;
+  color: black;
+  padding: 50px;
+  font-size: 325%;
+  background-image:url(https://docplayer.net/docs-images/63/48906955/images/3-0.jpg);
+  -webkit-text-stroke: 1px lightgrey;
+}
+h1 span::before{
+  content: "\A";
+  white-space: pre;
+}
+
+h2{
+  Width: 1000px;
+  padding: 20px;
+  padding-left: 400px;
+  background-color: lightgrey;
+}
+
+body{
+  background-color: rgb(110,0,0);
+}
+
+p{
+  Padding:100px;
+  background-color: White;
+  font-size: 150%;
+  padding-left: 25px;
+}
+
+p span::before{
+  content: "\A";
+  white-space: pre;
+}
+
+a:link{
+  color: Blue;
+}
+
+a:visited{
+  color: Indigo;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+div{
+  padding-top: 5px;
+  background-color: lightgrey;
+  width: 200px;
+  height: 130px;
+  text-indent: 10px;
+  font-size: 115%;
+}
+
+.weak{
+  font-size: 150%;
+  font-weight: bold;
+}
+.strong{
+  font-size: 160%;
+  font-weight: bold;
+}
